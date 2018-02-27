@@ -1,0 +1,26 @@
+{
+    "name": "magegeeks/twiliosmsotp",
+    "description": "Magegeeks Magento2 Twilio OTP SMS at customer registration",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.3",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "magegeeks",
+            "email": "magegeeks@gmail.com",
+            "homepage": "https://www.magegeeks.in/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magegeeks\\TwilioSMSOTP\\": ""
+        }
+    }
+}
